@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FavoritesTableViewCell" rowHeight="157" id="KGk-i7-Jjw" customClass="FavoritesTableViewCell" customModule="WeedmapsChallenge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="157"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="157"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JMK-lG-ejh">
+                        <rect key="frame" x="8" y="8" width="304" height="141"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Wfb-gf-abo">
+                                <rect key="frame" x="140" y="8" width="156" height="125"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fiY-Yl-F0c">
+                                        <rect key="frame" x="56" y="0.0" width="44.5" height="21"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="19"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Number Of Views" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59M-DM-lsC">
+                                        <rect key="frame" x="30.5" y="33" width="95.5" height="15"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Number Of Views" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxb-Ex-YQC">
+                                        <rect key="frame" x="30.5" y="60" width="95.5" height="14.5"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Number Of Views" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgb-oA-EkI">
+                                        <rect key="frame" x="30.5" y="86.5" width="95.5" height="14.5"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Number Of Views" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eD9-K7-ypf">
+                                        <rect key="frame" x="30.5" y="113" width="95.5" height="12"/>
+                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nnQ-u2-HR0">
+                                <rect key="frame" x="8" y="8" width="124" height="125"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="nnQ-u2-HR0" firstAttribute="top" secondItem="JMK-lG-ejh" secondAttribute="top" constant="8" id="0ib-jv-ugs"/>
+                            <constraint firstAttribute="bottom" secondItem="nnQ-u2-HR0" secondAttribute="bottom" constant="8" id="Fpo-gp-vQK"/>
+                            <constraint firstAttribute="trailing" secondItem="Wfb-gf-abo" secondAttribute="trailing" constant="8" id="O6m-te-XWj"/>
+                            <constraint firstItem="Wfb-gf-abo" firstAttribute="leading" secondItem="nnQ-u2-HR0" secondAttribute="trailing" constant="8" id="ODE-BS-kdE"/>
+                            <constraint firstAttribute="bottom" secondItem="Wfb-gf-abo" secondAttribute="bottom" constant="8" id="W17-57-3Ul"/>
+                            <constraint firstItem="Wfb-gf-abo" firstAttribute="top" secondItem="JMK-lG-ejh" secondAttribute="top" constant="8" id="hP7-JL-qno"/>
+                            <constraint firstItem="nnQ-u2-HR0" firstAttribute="width" secondItem="JMK-lG-ejh" secondAttribute="width" multiplier="0.407895" id="i9n-rM-doS"/>
+                            <constraint firstItem="nnQ-u2-HR0" firstAttribute="leading" secondItem="JMK-lG-ejh" secondAttribute="leading" constant="8" id="yny-lo-b5i"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="JMK-lG-ejh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="4sm-Zp-fXs"/>
+                    <constraint firstAttribute="bottom" secondItem="JMK-lG-ejh" secondAttribute="bottom" constant="8" id="DZ0-YY-dsY"/>
+                    <constraint firstItem="JMK-lG-ejh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="a3z-GB-4G8"/>
+                    <constraint firstAttribute="trailing" secondItem="JMK-lG-ejh" secondAttribute="trailing" constant="8" id="l8W-Ln-jZW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="businessDistanceLabel" destination="fgb-oA-EkI" id="eWV-82-rq2"/>
+                <outlet property="businessImageView" destination="nnQ-u2-HR0" id="XzM-6J-R9r"/>
+                <outlet property="businessNameLabel" destination="fiY-Yl-F0c" id="BnJ-Nt-v3r"/>
+                <outlet property="businessPriceLabel" destination="59M-DM-lsC" id="pRJ-cf-d7K"/>
+                <outlet property="businessRatingLabel" destination="sxb-Ex-YQC" id="pRd-Um-ZQQ"/>
+                <outlet property="businessStackView" destination="Wfb-gf-abo" id="gNt-2k-9bf"/>
+                <outlet property="numberOfViewsLabel" destination="eD9-K7-ypf" id="upD-Jp-8rY"/>
+                <outlet property="parentView" destination="JMK-lG-ejh" id="2Cj-Ht-kxL"/>
+            </connections>
+            <point key="canvasLocation" x="-23.188405797101453" y="137.61160714285714"/>
+        </tableViewCell>
+    </objects>
+</document>
